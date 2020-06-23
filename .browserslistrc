@@ -1,0 +1,4 @@
+# 根据caniuse数据，支持如下范围的浏览器(配置位置可选：webpack postcss-loader中，pakage.json, rc文件)
+#last 1 version
+> 1%
+#ie 10
