@@ -7,7 +7,7 @@
     "dll": "webpack --config=./build/webpack.config.dll.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config=./build/webpack.config.prod.js",
-    "module": "cross-env NODE_ENV=production webpack --config=./build/webpack.config.mod.js"
+    "module": "cross-env NODE_ENV=production webpack --config=./build/webpack.config.module.js"
   },
   "keywords": [],
   "author": "",

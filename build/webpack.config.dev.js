@@ -36,7 +36,8 @@ const devConfig = merge.smart(baseConfig, {
       app.get('/api-login/user', (req, res) => {
         res.json({name: '33'})
       })
-    }
+    },
+    open: true
   },
   module: {
     rules: [

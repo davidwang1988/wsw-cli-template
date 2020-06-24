@@ -8,14 +8,14 @@ module.exports = {
   },
   output: {
     filename: "[name]_[hash:5].js",
-    path: path.resolve(__dirname, 'dist', 'dll'),
+    path: path.resolve(__dirname, '../', 'dist', 'dll'),
     library: '[name]_dll'
   },
   plugins: [
     new CleanWebpackPlugin(),
     new webpack.DllPlugin({
       name: "[name]_dll", // 和上面library一致
-      path: path.resolve(__dirname, 'dist', 'dll', 'manifest.json')//  输出映射表的地址
+      path: path.resolve(__dirname, '../', 'dist', 'dll', 'manifest.json')//  输出映射表的地址
     }),
   ]
 }
